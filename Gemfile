@@ -48,6 +48,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'pg', '1.1.4'
+end
+
 group :test do
   gem 'capybara',                 '3.35.3'
   gem 'selenium-webdriver',       '3.142.7'
